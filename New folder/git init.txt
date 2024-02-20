@@ -1,0 +1,6 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KalariyaMihir/20Feb_Mihr_Python.git
+git push -u origin main
