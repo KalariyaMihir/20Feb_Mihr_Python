@@ -2,7 +2,16 @@
 
 print("\n--- This Program is to print single string from two strings with space and swap the first character of each string ---\n\n")
 
-string_1 = input("Enter First String : ")
-string_2 = input("Enter Second String : ")
+str_1 = input("Enter First String : ")
+# string_2 = input("Enter Second String : ")
 
-print(string_1+string_2)
+# string_3 = string_1+" "+string_2
+
+# print(string_3)
+
+# str_3 = str_1[0] , str_1[1] 
+
+print(str_1.replace(str_1[0],str_1[1]))
+
+
+
