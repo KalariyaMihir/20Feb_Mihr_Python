@@ -23,6 +23,6 @@ for n in tops.keys():
                
     # # tops[n] = input(f"Enter Value of {n} : ")  
         j = input("Enter a Key : ")
-        tops[n] = j
+        tops[n] = tops 
 
 print(tops)

@@ -10,8 +10,15 @@ str_1 = input("Enter First String : ")
 # print(string_3)
 
 # str_3 = str_1[0] , str_1[1] 
+fn = str_1[0]
+sn = str_1[1]
 
-print(str_1.replace(str_1[0],str_1[1]))
+tn = fn 
+fn = sn
+sn = tn
+
+
+print(str_1(fn = sn))
 
 
 
