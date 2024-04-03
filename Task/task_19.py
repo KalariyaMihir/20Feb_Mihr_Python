@@ -3,26 +3,20 @@
 tops = {}
 
 # this is for get numbers of keys
-keys = int(input("Enter Numbers of Keys : "))
+value = int(input("Enter Numbers of Keys : "))
 
-for num in range(keys):
+for num in range(value):
     
-    key = str(input("Enter a Key : "))
+    child_key = str(input("Enter a Key : "))
     
-    tops[key] = {None}
+    tops[child_key] = {}
 
-# this is for the get the numbers of keys of keys
-
-print("Keys of Kes")
-
-for n in tops.keys():
+    id = input("Enter Id of Student : ")
+    name = input("Enter Name of Student : ")
     
-    keys = int(input(f"Enter Keys of {n} : "))
-    
-    for ind in range(keys):
-               
-    # # tops[n] = input(f"Enter Value of {n} : ")  
-        j = input("Enter a Key : ")
-        tops[n] = tops 
+    tops[child_key]["Name"]= name
+    tops[child_key]["Name"]= id
 
+    
 print(tops)
+    
