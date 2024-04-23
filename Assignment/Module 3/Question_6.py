@@ -17,4 +17,6 @@ for str in list:
         if(str[0] == str[-1]):
             
             print(str)
+
+
             

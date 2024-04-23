@@ -3,22 +3,20 @@
 print("\n--- This Program is to print single string from two strings with space and swap the first character of each string ---\n\n")
 
 str_1 = input("Enter First String : ")
-# string_2 = input("Enter Second String : ")
+str_2 = input("Enter Second String : ")
 
-# string_3 = string_1+" "+string_2
-
-# print(string_3)
-
-# str_3 = str_1[0] , str_1[1] 
 fn = str_1[0]
 sn = str_1[1]
 
-tn = fn 
-fn = sn
-sn = tn
+fn1 = str_2[0]
+sn1 = str_2[1]
 
+fn,sn = sn,fn
+fn1,sn1 = sn1,fn1
 
-print(str_1(fn = sn))
+str_3 = fn + sn + str_1[2:] +" "+ fn1 + sn1 + str_2[2:]  
+
+print(str_3) 
 
 
 
