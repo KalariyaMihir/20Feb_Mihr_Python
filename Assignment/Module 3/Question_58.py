@@ -1,15 +1,4 @@
 #  Write a Python program to read a random line from a file.
-# import random
-
-# file = open(r'D:\Full Stack\BE\Pyhotn\Assignment\Module 3\open.text','r')
-
-
-# choose = file.readline()
-
-
-# print(random.choice(choose[0:]))
-
-# file.close
 
 import random
 
