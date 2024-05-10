@@ -1,0 +1,3 @@
+Space is a ree-dimensional continuum containing positions and directions. 
+In classical physics, physical space is often conceived in three linear dimensions. 
+Modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime.
