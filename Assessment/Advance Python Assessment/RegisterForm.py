@@ -343,9 +343,3 @@ class Ui:
 
     
 call = Ui()
-
-# call.reform()
-# call.login()
-# call.update()
-# call.products()
-# call.delete()()
